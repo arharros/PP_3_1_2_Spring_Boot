@@ -48,8 +48,7 @@ public class UsersServicesImp implements UsersServices {
 
     @Override
     public List<User> listOfUsers() {
-        return userRepository.findAll(Sort.by(Sort.Order
-                .by("idUser")));
+        return userRepository.findAll(Sort.by(Sort.Order.by("idUser")));
     }
 
 }

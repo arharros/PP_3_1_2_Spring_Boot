@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import ru.kata.pp_3_1_2_spring_boot.model.User;
 import ru.kata.pp_3_1_2_spring_boot.services.UsersServices;
-
-
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
